@@ -88,3 +88,54 @@ section h2 {
     padding: 10px 6.451612% 15px;
     color: #444;
 }
+.wrong-box {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.wrong-box-main {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: left;
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+}
+.txt-blue {
+    color: #099ddf !important;
+}
+.flex {
+    display: flex;
+    margin: 0 auto;
+    max-width: 980px;
+    margin-bottom: 50px;
+}
+.left-box-txt, .right-box-txt {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: #444;
+    margin-bottom: 0.3rem;
+}
+.left-box {
+    padding-right: 10px;
+}
+.right-box {
+    padding-left: 10px;
+}
+.left-box h4, .right-box h4 {
+    text-align: left;
+}
+.left-box h5, .right-box h5 {
+    text-decoration: none;
+    color: #00652c;
+    font-size: 24px;
+    margin: 0 0 10px;
+    text-align: left;
+}
+.footer {
+    padding: 15px 0;
+    background: #00652c;
+    color: #FFF;
+    text-decoration: none;
+}
