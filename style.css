@@ -139,3 +139,57 @@ section h2 {
     color: #FFF;
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .wrap {
+        width: 95%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    img .sp-img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    header {
+        margin: 10px 0 0 40px;
+        text-align: center;
+    }
+    #movieBox {
+        display: block;
+    }
+    #movieBox h3 {
+        display: block;
+    }
+    .stop-img {
+        display: flex;
+        flex-direction: column;
+    }
+    section h2 {
+        text-align: center;
+    }
+    #movieBox {
+        width: 100%;
+    }
+    .letter {
+        margin: 0 4.5% 3%;
+        text-align: left;
+    }
+    .btnBox {
+        display: block;
+        padding: 0;
+    }
+    .btn {
+        width: 95%;
+    }
+    .flex {
+        display: block;
+    }
+    .right-box p {
+        margin: 20px 0;
+        width: 95%;
+    }
+}
